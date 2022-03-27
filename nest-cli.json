@@ -1,0 +1,11 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "./src",
+  "monorepo": true,
+  "root": "/",
+  "compilerOptions": {
+    "tsConfigPath": "tsconfig.json",
+    "deleteOutDir": true,
+    "plugins": ["@nestjs/swagger/plugin"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13.85,
+    "editor.lineHeight": 1.385,
+    "editor.fontFamily": "cartograph cf",
+    "editor.letterSpacing": 0.125,
+    // "editor.fontFamily": "fira code"
+    // "editor.fontFamily": "ligconsolata"
+}
