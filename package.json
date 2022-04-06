@@ -11,7 +11,7 @@
     "start": "nest start",
     "dev": "nest start --watch",
     "debug": "nest start --debug --watch",
-    "prod": "node dist/main",
+    "prod": "node dist/src/main",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
