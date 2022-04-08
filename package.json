@@ -11,6 +11,7 @@
     "start": "nest start",
     "dev": "nest start --watch",
     "debug": "nest start --debug --watch",
+    "heroku-postbuild": "echo skips build",
     "prod": "node dist/src/main",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -79,5 +80,9 @@
     "roots": [
       "<rootDir>"
     ]
+  },
+  "engines": {
+    "node": "17",
+    "npm": "8"
   }
 }
