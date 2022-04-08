@@ -16,7 +16,7 @@ import { AppModule } from "./app.module";
     .setVersion("v0.1")
     .build();
   const document = SwaggerModule.createDocument(app, appOptions);
-  
+
   SwaggerModule.setup("/api/v1", app, document);
-  await app.listen(3030);
+  await app.listen(process.env.PORT || 3030);
 })();
