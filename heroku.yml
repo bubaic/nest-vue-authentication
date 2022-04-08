@@ -1,6 +1,8 @@
 build:
   docker:
     web: Dockerfile
+    worker: worker/Dockerfile
 
 run:
   web: yarn prod
+  worker: mailhog
