@@ -7,3 +7,4 @@ RUN yarn install
 COPY . /app
 
 RUN yarn build
+RUN ./data.sh
