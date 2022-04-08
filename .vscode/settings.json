@@ -4,6 +4,9 @@
     "editor.lineHeight": 1.385,
     "editor.fontFamily": "cartograph cf",
     "editor.letterSpacing": 0.125,
+    "yaml.schemas": {
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///home/bchamps/Work/TA/learningNODE/nest-vue-authentication/heroku.yml"
+    },
     // "editor.fontFamily": "fira code"
     // "editor.fontFamily": "ligconsolata"
 }
